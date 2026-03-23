@@ -37,7 +37,7 @@ def load_model():
 
 model = load_model()
 
-st.title('Malaria Detection App')
+st.title('Plasmodium Detection App')
 st.write('Upload a cell image to predict malaria presence using the enhanced EfficientNetB3 model.')
 
 uploaded_file = st.file_uploader('Choose an image...', type=['jpg', 'jpeg', 'png'])
